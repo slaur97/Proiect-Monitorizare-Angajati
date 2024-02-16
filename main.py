@@ -117,8 +117,8 @@ def creare_txt_chiulangii(json_):
             lista.append(element['id'])
             lista.append(element['ore_lucrate'])
             txtFile.write(str(lista[0])+","+str(lista[1])+'\n')
-            # Mail=MailSender()
-            # Mail.send_email("laurentiu_sogor@yahoo.com", "chiulangiii", f"persoana cu id-ul {lista[0]} a lucrat doar {lista[1]} ore")
+            Mail=MailSender()
+            Mail.send_email("laurentiu_sogor@yahoo.com", "chiulangiii", f"persoana cu id-ul {lista[0]} a lucrat doar {lista[1]} ore")
             time.sleep(3)
             lista.clear()
 def creare_csv_chiulangii(json_):
