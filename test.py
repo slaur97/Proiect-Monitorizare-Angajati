@@ -196,7 +196,7 @@ def run_test_three():
 
 # run_test_one()
 # run_test_two()
-# run_test_three()
+run_test_three()
 
 
 # mydb.truncateAllTables()
