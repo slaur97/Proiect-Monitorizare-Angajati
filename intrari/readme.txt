@@ -1,0 +1,1 @@
+In fisierul intrari sunt mutate automat fisierele cu intrarile si iesirle angajatilor din firma.
