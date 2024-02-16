@@ -171,7 +171,7 @@ try:
         cale_salvare=sys.argv[2]
         data= data=datetime.datetime.now()  #daca este ora 20:00, adaugam in fisiere chiulangiii
         data=data.strftime("%H:%M:%S")
-        if(int(str(data)[:2]))==15:
+        if(int(str(data)[:2]))==13:
             print('loading..')
             time.sleep(3)
             angajati_sub_8ore_lucrate()
