@@ -16,7 +16,7 @@ import ssl
 import smtplib
 
 class MailSender:
-    password= "jdki mdhl bktf jvlx"
+    password= ""
     email_sender='sogorlaurentiu@gmail.com'
     
 
@@ -37,7 +37,7 @@ class MailSender:
 class mysql_connect:
         __host="127.0.0.1"
         __user="root"
-        __password="Pasere123"
+        __password="root"
         __database="cladire"
 
         def __init__(self):
